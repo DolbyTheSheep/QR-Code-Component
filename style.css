@@ -3,9 +3,10 @@
 body {
     background-color: hsl(212, 45%, 89%);
     margin: 0px;
-    height:100vh; /* use 100% of the height of the viewport */
-    display:grid;             
-    place-items: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #qr_box {
